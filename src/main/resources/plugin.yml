@@ -1,4 +1,20 @@
-name: Enhanced Teleportation
+name: EnhancedTeleportation
 version: '${project.version}'
 main: nsk.enhanced.EnhancedTeleportation
 api-version: '1.20'
+
+author: .n.u
+prefix: Enhanced Teleportation
+
+commands:
+    tpa:
+        description: Request for teleportation
+        usage: |
+            /tpa <player>
+            /tpa <a/accept>
+            /tpa <d/deny>
+
+    ft:
+        description: Moves player to required destination
+        aliases: [fasttravel]
+        usage: /ft <location>
