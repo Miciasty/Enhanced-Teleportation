@@ -1,0 +1,4 @@
+name: Enhanced Teleportation
+version: '${project.version}'
+main: nsk.enhanced.EnhancedTeleportation
+api-version: '1.20'
